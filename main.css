@@ -1,0 +1,182 @@
+    body {
+        background-image: url("assets/space.jpg");
+        color: white;
+    }
+    
+    .topnav {
+        position: relative;
+        right: 0;
+    }
+    
+    .info {
+        text-align: center;
+        position: relative;
+        top: 20rem;
+    }
+    
+    .navbar navbar navbar-expand-lg navbar-light bg-light {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding: 20px;
+        padding-bottom: 15px;
+        color: white;
+    }
+    
+    .bg-light {
+        background-color: transparent !important;
+    }
+    
+    #navbarNav {
+        position: fixed;
+        right: 0px;
+    }
+    /*SECOND SECTION ABOUT ME AND SKILLS*/
+    
+    .row {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        height: 150px;
+        margin-left: 100px;
+    }
+    
+    .container {
+        position: relative;
+        margin-top: 300px;
+        left: 500px;
+        top: 750px;
+    }
+    
+    .aboutme {
+        position: relative;
+        top: 1000px;
+    }
+    
+    .contact {
+        position: relative;
+        top: 400px;
+        size: 100px;
+    }
+    
+    dl {
+        position: relative;
+        top: 1300px;
+        right: 500px;
+        text-align: left;
+    }
+    
+    html,
+    body {
+        font-family: 'Source Sans Pro', sans-serif, "Raleway";
+        margin: 0;
+        padding: 0;
+        font-size: 14pt;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .graph-cont {
+        width: calc(100% - 40px);
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    /*h1,h2,h3{
+  text-align: center;
+  color: #34495e;
+}*/
+    
+    .bar {
+        height: 30px;
+        max-width: 800px;
+        margin: 0 auto 10px auto;
+        line-height: 30px;
+        font-size: 16px;
+        color: white;
+        padding: 0 0 0 10px;
+        position: relative;
+    }
+    
+    .bar::before {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 30px;
+        top: 0;
+        z-index: -2;
+        background: #ecf0f1;
+    }
+    
+    .bar::after {
+        content: '';
+        background: #2890af;
+        height: 30px;
+        transition: 0.7s;
+        display: block;
+        width: 100%;
+        -webkit-animation: bar-before 1 1.8s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .bar1::after {
+        max-width: 75%;
+    }
+    
+    .bar2::after {
+        max-width: 60%;
+    }
+    
+    .bar3::after {
+        max-width: 45%;
+    }
+    
+    .bar4::after {
+        max-width: 30%;
+    }
+    
+    .bar5::after {
+        max-width: 25%;
+    }
+    
+    @-webkit-keyframes bar-before {
+        0% {
+            width: 0px;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+    
+    .how-cont {
+        width: calc(100% - 40px);
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    code {
+        padding: 5px;
+        background: #ecf0f1;
+        display: block;
+    }
+    
+    pre {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contact {
+        top: 900px;
+        position: relative;
+    }
+    
+    .footer-copyright {
+        top: 1000px;
+        position: relative;
+        background-color: cyan;
+    }
