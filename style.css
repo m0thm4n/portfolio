@@ -8,6 +8,16 @@
     color: black;
 }
 
+#about {
+    padding-top: 300px;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
 .container-fluid {
     padding-top: 370px;
     padding-bottom: 370px;
